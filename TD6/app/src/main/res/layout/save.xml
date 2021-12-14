@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/InfoId"
+        android:textAlignment="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="ID : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="empty"
+        app:layout_constraintStart_toEndOf="@+id/InfoId"
+        app:layout_constraintTop_toTopOf="@+id/InfoId" />
+
+    <TextView
+        android:id="@+id/InfoName"
+        android:textAlignment="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Name :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InfoId" />
+
+    <TextView
+        android:id="@+id/InfoFullName"
+        android:textAlignment="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="Full Name :"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InfoName" />
+
+    <TextView
+        android:id="@+id/InfoUrl"
+        android:textAlignment="center"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:text="URL : "
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/InfoFullName" />
+
+    <TextView
+        android:id="@+id/Name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        app:layout_constraintBottom_toBottomOf="@+id/InfoName"
+        app:layout_constraintStart_toEndOf="@+id/InfoName" />
+    <TextView
+        android:id="@+id/FullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        app:layout_constraintBottom_toBottomOf="@+id/InfoFullName"
+        app:layout_constraintStart_toEndOf="@+id/InfoFullName" />
+    <TextView
+        android:id="@+id/Url"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empty"
+        app:layout_constraintBottom_toBottomOf="@+id/InfoUrl"
+        app:layout_constraintStart_toEndOf="@+id/InfoUrl" />
+</androidx.constraintlayout.widget.ConstraintLayout>

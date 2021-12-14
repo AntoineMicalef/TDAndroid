@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/welcom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcom"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/entre"/>
+    <EditText
+        android:id="@+id/entre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/entre"
+        app:layout_constraintTop_toBottomOf="@id/welcom"
+        app:layout_constraintLeft_toLeftOf="@id/welcom"
+        app:layout_constraintRight_toRightOf="@id/welcom"
+        app:layout_constraintBottom_toTopOf="@id/plat"/>
+    <EditText
+        android:id="@+id/plat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/plat"
+        app:layout_constraintTop_toBottomOf="@id/entre"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/info"/>
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info"
+        app:layout_constraintTop_toBottomOf="@id/plat"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/fromage"/>
+    <RadioButton
+        android:id="@+id/fromage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fromage"
+        app:layout_constraintTop_toBottomOf="@id/info"
+        app:layout_constraintLeft_toLeftOf="@id/info"
+        app:layout_constraintRight_toLeftOf="@id/fruit"
+        app:layout_constraintBottom_toTopOf="@id/info2"/>
+    <RadioButton
+        android:id="@+id/fruit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fruit"
+        app:layout_constraintTop_toBottomOf="@id/info"
+        app:layout_constraintLeft_toRightOf="@id/fromage"
+        app:layout_constraintRight_toRightOf="@id/info"
+        app:layout_constraintBottom_toTopOf="@id/info2"/>
+    <TextView
+        android:id="@+id/info2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info2"
+        app:layout_constraintTop_toBottomOf="@id/fruit"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/radioGroup"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/info2"
+        app:layout_constraintBottom_toTopOf="@id/Valider">
+
+        <RadioButton
+            android:id="@+id/midi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/midi" />
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"/>
+
+        <RadioButton
+            android:id="@+id/soir"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soir" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/Valider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/valider"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">TD2</string>
+    <string name="button">Valider</string>
+    <string name="password">Entrez votre mot de passe</string>
+    <string name="welcom">Bienvenue dans le choix de votre menu</string>
+    <string name="entre">Saisissez votre entrée</string>
+    <string name="plat">Saisissez votre plat</string>
+    <string name="fromage">Fromge</string>
+    <string name="info">Cochez si vous avez consommé du :</string>
+    <string name="fruit">Fruit</string>
+    <string name="info2">Indiquez l\'heure de consommation</string>
+    <string name="midi">MIDI</string>
+    <string name="soir">Soir</string>
+    <string name="valider">Valider</string>
+</resources>

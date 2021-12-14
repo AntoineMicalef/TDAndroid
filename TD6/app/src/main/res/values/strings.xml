@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TD6</string>
+    <string name="welcom">Bienvenue choisissez votre activité :</string>
+    <string name="exercice1">Exercice 1</string>
+    <string name="saisi">Saisir votre nom d\'utilisateur</string>
+</resources>
