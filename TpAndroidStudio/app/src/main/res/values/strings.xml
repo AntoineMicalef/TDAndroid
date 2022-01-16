@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name" translatable="false">Your Movie</string>
+    <string name="popular" translatable="false">Most Popular Movie !</string>
+    <string name="up" translatable="false">UpComing Movie !</string>
+    <string name="upComing" translatable="false">The Upcoming Movies !</string>
+    <string name="btPop" translatable="false">Popular</string>
+    <string name="btUp" translatable="false">UpComing</string>
+    <string name="genre" translatable="false">Genre :</string>
+    <string name="releaseDate" translatable="false">Release Date : </string>
+    <string name="search" translatable="false">Search : </string>
+    <string name="Language" translatable="false">Choose your language</string>
+    <string name="Change" translatable="false">Change language to :  </string>
+</resources>
