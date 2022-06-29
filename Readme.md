@@ -10,4 +10,4 @@ Pour ce TD 4 bonus en plus de l'application ont été fait :
 	1) défilement infini
 	2) Scroll view
 	3) Changement de langue
-	4) Recherche de filme
+	4) Recherche de film
